@@ -1,0 +1,30 @@
+.html body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 100%;
+    padding:10px;
+    height: 30px;
+    background-color: black;
+    box-sizing: border-box;
+}
+.navbarlogo{
+    color:white;
+    text-decoration:none;
+}
+.logo.navbarthings{
+    position:absolute;
+    right: 0;
+    top: 0;
+}
+.logo.navbarthings ul li{
+    position:absolute;
+    display:inline;
+    margin-right:15px;
+    
+}
+.logo.navbarthings ul li a{
+    color:white;
+
+}

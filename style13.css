@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:black;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(253, 15, 253);
+    margin: auto;
+    margin-top: 100px;
+    transform: rotate(50deg);
+    animation: 0.7s rotate inherit;
+    transition: 10s;
+    
+
+}
+    @keyframes rotate{
+        0%{
+            transform: rotate(0deg);
+        }
+        20%{
+            transform: rotate(72deg);
+        }
+        40%{
+            transform:rotate(144deg) ;
+        }
+        60%{
+            transform: rotate(216deg);
+        }
+        80%{
+            transform: rotate(288deg);
+        }
+        0%{
+            transform: rotate(0deg);
+        }
+}
+.box2{
+    background-color: bisque;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: 100px;
+    transform: rotate(60deg);
+    animation:0.8s rotate inherit ;
+    transition: 10s;
+    border-radius: 50%;
+
+
+}
+@media screen and(min-width:1200px)
+{
+    (animation-rotate: infinite)
+}
+
+
+

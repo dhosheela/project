@@ -1,0 +1,26 @@
+body{
+    background-color:black;
+    
+}
+.box{
+    width:300px;
+    height: 300px;
+    background:linear-gradient(skyblue, rgb(233, 15, 178), black);
+    top: 100px;
+    right: 400px;
+    
+    
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background:radial-gradient( rgb(170, 247, 16),rgb(120, 15, 224)palevioletred);
+    
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background:linear-gradient(to right (rgb(21, 226, 216),yellow)) ;
+
+    
+}

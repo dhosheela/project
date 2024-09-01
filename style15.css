@@ -1,0 +1,14 @@
+
+.para1{
+    display:grid ;
+    background-color: black;
+    grid-template-columns:repeat(2,2fr);
+    box-sizing:border-box ;
+}
+.para{
+    background-color: rgb(9, 160, 248);
+    margin: 20px;
+    padding: 20px;
+    
+
+}

@@ -1,0 +1,66 @@
+body{
+    
+    background-repeat:repeat-x;
+    background-size: cover;
+    background-image:url( "audio/green.jpg");
+    overflow: hidden;
+
+
+}
+
+.boy{
+    top: 400px;
+     position: absolute;
+animation-name:boy-animation;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear ;
+    
+    
+}
+@keyframes boy-animation{
+    from{
+        transform:translatex(-300px);
+    }
+    to{
+        transform:translateX(1600px);
+    }
+    from{
+        left: -300px;
+    }
+    to{
+        right: 100%;
+    }
+
+}
+.cloud{
+    position:absolute;
+    top: 30px;
+    left: 10px;
+    animation:smallcloud-animation 50s linear ;
+    opacity: 0.10;
+    }
+    .large-cloud{
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        width: 300px;
+        animation: smallcloud-animation 30s linear 1s infinite;
+        z-index: -1;}
+        @keyframes smallcloud-animation{
+            from{
+                right:-100px;}
+                to{
+                    left: 300%;
+                }
+            }
+.sun{
+    background-color:darkorange;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 400px;
+    
+}
